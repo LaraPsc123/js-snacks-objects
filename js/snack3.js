@@ -21,15 +21,15 @@ const animali = [
     },
 ]
 
-console.log(animali)
+console.log("Objects", animali)
 
 // CREARE ARRAY CON LA LISTA DI ANIMALI
 const listAnimal = []
 
 for (let i = 0; i < animali.length; i++) {
-    console.log(animali[i])
+    console.log("Indici degli oggetti", animali[i])
     listAnimal.push(animali)
-    console.log(listAnimal)
+    console.log("Array vuota", listAnimal)
 
 }
 
@@ -46,7 +46,7 @@ for (let i = 0; i < animali.length; i++) {
     // - metterlo nell'array
     if (classMammifero == 'mammifero') {
         listaMammiferi.push(animali[i])
-        console.log(listaMammiferi)
+        console.log("Array con lista", listaMammiferi)
     }
 
 
