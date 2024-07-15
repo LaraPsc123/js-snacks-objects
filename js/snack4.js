@@ -21,7 +21,8 @@ const persone = [
         età: 20,
     },
 ]
-console.log(persone)
+console.log("Objects", persone)
+
 
 // CREARE L'ARRAY
 const people = []
@@ -29,9 +30,9 @@ const people = []
 // CICLO FOR
 for (let i = 0; i < persone.length; i++) {
     let correnti = persone[i]
-    console.log(correnti)
+    console.log("indice degli objects", correnti)
     people.push(correnti)
-    console.log(people)
+    console.log("array con lista", people)
 
 }
 
@@ -42,6 +43,14 @@ const nomiEtà = []
 // CREARE CICLO FOR
 for (let i = 0; i < persone.length; i++) {
     let inPersone = persone[i]
+
+
+
+    // CONCATENAZIONE TRA STRINGHE
+    let concatenazione = nome + cognome + età
+    console.log(concatenazione)
+
+
 
 
 }
